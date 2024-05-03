@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://telegram.me/bisal_files"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bot_name = "MrAKFileToLinkbot"
+bisal_channel = "https://telegram.me/mrak_linkzz"
+bisal_grp = "https://telegram.me/+IAIg1st9kl1iMjll"
 
 class Var(object):
     MULTI_CLIENT = False
@@ -18,7 +18,7 @@ class Var(object):
     name = str(getenv('name', 'MrAKFileToLinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002026821864'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002124248397'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002026821864'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
@@ -29,7 +29,7 @@ class Var(object):
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'I_Am_MrAK'))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
+        APP_NAME = str(getenv('APP_NAME', "mrakfamily-ad0cfeae5ba6")) #dont need to fill anything here
     
     else:
         ON_HEROKU = False
