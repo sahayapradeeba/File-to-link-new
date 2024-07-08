@@ -29,7 +29,7 @@ class Var(object):
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'SpySpidey'))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME', "")) #dont need to fill anything here
+        APP_NAME = str(getenv('APP_NAME', "file-to-link-new-435c.onrender.com")) #dont need to fill anything here
     
     else:
         ON_HEROKU = False
